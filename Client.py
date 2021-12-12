@@ -1,5 +1,6 @@
 import json
 import socket
+import time
 
 
 def GetPlacesList(client, addr):
@@ -22,6 +23,22 @@ def GetPlaceInfo(client, addr, information):
     return data
 
 
+def GetImage(client, addr, information):
+    client.sendto(bytes('place_image,' + information, encoding='utf8'), addr)
+    time.sleep(1)
+    filename = client.recvfrom(1024)
+    f = open(filename[0].decode('utf8'), 'wb')
+    client.sendto(bytes('OK', encoding='utf8'), addr)
+    data = client.recvfrom(1024)
+    try:
+        while data:
+            f.write(data[0])
+            client.settimeout(2)
+            data = client.recvfrom(1024)
+    except TimeoutError:
+        f.close()
+
+
 if __name__ == "__main__":
 
     """ Creating the UDP socket """
@@ -30,4 +47,4 @@ if __name__ == "__main__":
     port = 50000
     addr = (host, port)
 
-    GetPlaceInfo(client, addr, 'Ho Chi Minh')
+    GetImage(client, addr, 'Ho Chi Minh')

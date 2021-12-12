@@ -1,5 +1,8 @@
 import json
 import socket
+import codecs
+import os
+import time
 
 
 def GetPlacesList():
@@ -17,11 +20,20 @@ def GetPlaceInfo(information):
     return None
 
 
-def SendImage(information):
+def GetImage(information, server, client_addr):
     place_list = GetPlacesList()
-    for i in place_list:
-        if i[0] == information or i[1] == information or i[2] == information or i[3] == information:
-            pass
+    for i in place_list['data']:
+        if i['key'] == information or i['location'] == information or i['longitude'] == information \
+                or i['latitude'] == information or i['description'] == information:
+            filename = i['key'] + '.png'
+            server.sendto(bytes(str(filename), encoding='utf8'), client_addr)
+            message = server.recvfrom(1024)
+            f = open('Image/' + filename, "rb")
+            data = f.read(1024)
+            while data:
+                if server.sendto(data, client_addr):
+                    data = f.read(1024)
+                    time.sleep(0.5)
 
 
 if __name__ == "__main__":
@@ -44,7 +56,8 @@ if __name__ == "__main__":
             data = GetPlaceInfo(info)
             server.sendto(bytes(str(data), encoding='utf8'), client_addr)
         elif "place_image" in request:
-            pass
+            info = request.split(',')[1]
+            GetImage(info, server, client_addr)
         else:
             pass
 
