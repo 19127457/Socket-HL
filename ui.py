@@ -42,14 +42,14 @@ def selected_item():
     item = lst.get(lst.curselection())
 
     Func2(item)
-    Func3(datas['key'])
+    #Func3(datas['key'])
     
     txt.insert(INSERT, f"Name: {datas['location']}\n")
     txt.insert(INSERT, f"Longtitude: {datas['longitude']}\n")
     txt.insert(INSERT, f"Lattitude: {datas['latitude']}\n")
     txt.insert(INSERT, f"Description: {datas['description']}\n")
 
-    img = Image.open('client/' + datas['key'] + '.png', 'rb').convert("RGBA")
+    img = Image.open('Image/' + datas['key'] + '.png').convert("RGBA")
     width, height = 300, 150
     resize_image = img.resize((width, height))
     img = ImageTk.PhotoImage(resize_image)
