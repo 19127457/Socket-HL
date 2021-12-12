@@ -27,14 +27,14 @@ def GetImage(client, addr, information):
     client.sendto(bytes('place_image,' + information, encoding='utf8'), addr)
     time.sleep(1)
     filename = client.recvfrom(1024)
-    f = open(filename[0].decode('utf8'), 'wb')
+    f = open('client/' + filename[0].decode('utf8'), 'wb')
     client.sendto(bytes('OK', encoding='utf8'), addr)
-    data = client.recvfrom(1024)
+    data = client.recvfrom(4096)
     try:
         while data:
             f.write(data[0])
             client.settimeout(2)
-            data = client.recvfrom(1024)
+            data = client.recvfrom(4096)
     except TimeoutError:
         f.close()
 
