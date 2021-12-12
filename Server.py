@@ -3,7 +3,6 @@ import socket
 import codecs
 import os
 import time
-import threading
 
 
 def GetPlacesList():
@@ -37,7 +36,15 @@ def GetImage(information, server, client_addr):
                     time.sleep(0.5)
 
 
-def ServerUDPThread():
+if __name__ == "__main__":
+
+    """ Creating the UDP socket """
+    server = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    port = 50000
+
+    """ Bind the host address with the port """
+    server.bind(('', port))
+
     while True:
         request, client_addr = server.recvfrom(1024)
         request = request.decode("utf-8")
@@ -53,17 +60,5 @@ def ServerUDPThread():
             GetImage(info, server, client_addr)
         else:
             pass
-
-
-if __name__ == "__main__":
-
-    """ Creating the UDP socket """
-    server = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    port = 50000
-
-    """ Bind the host address with the port """
-    server.bind(('', port))
-
-    
 
     server.close()
