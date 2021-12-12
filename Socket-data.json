@@ -2,74 +2,74 @@
   "data":
   [
     {
-      "Key": "1",
-      "location": "Đà Nẵng",
+      "key": "1",
+      "location": "Da Nang",
       "longitude": "108.224",
       "latitude": "16.0748",
-      "description": "Viet Nam tôi đẹp"
+      "description": "Viet Nam tuoi dep"
     },
     {
-      "Key": "2",
-      "location": "Buôn Ma Thuột",
+      "key": "2",
+      "location": "Buon Ma Thuot",
       "longitude": "108.05",
       "latitude": "12.6667",
-      "description": "Viet Nam tôi đẹp"
+      "description": "Viet Nam tuoi dep"
     },
     {
-      "Maso": "3",
-      "location": "Hồ Chí Minh",
+      "key": "3",
+      "location": "Ho Chi Minh",
       "longitude": "106.6333",
       "latitude": "10.8167",
-      "description": "Viet Nam tôi đẹp"
+      "description": "Viet Nam tuoi dep"
     },
     {
-      "Maso": "4",
-      "location": "Hà Nội",
+      "key": "4",
+      "location": "Ha Noi",
       "longitude": "105.8412",
       "latitude": "21.0245",
-      "description": "Viet Nam tôi đẹp"
+      "description": "Viet Nam tuoi dep"
     },
     {
-      "Maso": "5",
-      "location": "Vũng Tàu",
+      "key": "5",
+      "location": "Vung Tau",
       "longitude": "107.1417",
       "latitude": "10.4042",
-      "description": "Viet Nam tôi đẹp"
+      "description": "Viet Nam tuoi dep"
     },
     {
-      "Maso": "6",
-      "location": "Cần Thơ",
+      "key": "6",
+      "location": "Can Tho",
       "longitude": "105.7833",
       "latitude": "10.0333",
-      "description": "Viet Nam tôi đẹp"
+      "description": "Viet Nam tuoi dep"
     },
     {
-      "Maso": "7",
-      "location": "Huế",
+      "key": "7",
+      "location": "Hue",
       "longitude": "107.5908",
       "latitude": "16.4637",
-      "description": "Viet Nam tôi đẹp"
+      "description": "Viet Nam tuoi dep"
     },
     {
-      "Maso": "8",
-      "location": "Thái Bình",
+      "key": "8",
+      "location": "Thai Binh",
       "longitude": "106.3422",
       "latitude": "20.4461",
-      "description": "Viet Nam tôi đẹp"
+      "description": "Viet Nam tuoi dep"
     },
     {
-      "Maso": "9",
-      "location": "Hạ Long",
+      "key": "9",
+      "location": "Ha Long",
       "longitude": "107.0852",
       "latitude": "20.9514",
-      "description": "Viet Nam tôi đẹp"
+      "description": "Viet Nam tuoi dep"
     },
     {
-      "Maso": "10",
-      "location": "Hội An",
+      "key": "10",
+      "location": "Hoi An",
       "longitude": "108.3327",
       "latitude": "15.8777",
-      "description": "Viet Nam tôi đẹp"
+      "description": "Viet Nam tuoi dep"
     }
   ]
 }
