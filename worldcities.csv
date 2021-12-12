@@ -1,0 +1,81 @@
+key,name,lat,long,description
+1,Ho Chi Minh City,10.8167,106.6333,Vietnam
+2,Hanoi,21.0245,105.8412,Vietnam
+3,Haiphong,20.8,106.6667,Vietnam
+4,Can Tho,10.0333,105.7833,Vietnam
+5,Bien Hoa,10.9277,106.8681,Vietnam
+6,Thu Duc,10.8199,106.7909,Vietnam
+7,Quang Ha,16.06,108.25,Vietnam
+8,Bac Ninh,21.1861,106.0763,Vietnam
+9,Hai Duong,20.9399,106.3309,Vietnam
+10,Vinh,18.6733,105.6922,Vietnam
+11,Hue,16.4637,107.5908,Vietnam
+12,Thanh Hoa,19.8075,105.7764,Vietnam
+13,Nha Trang,12.2495,109.1908,Vietnam
+14,Nam Dinh,20.42,106.1683,Vietnam
+15,Buon Ma Thuot,12.6667,108.05,Vietnam
+16,Thai Nguyen,21.6,105.85,Vietnam
+17,Vung Tau,10.4042,107.1417,Vietnam
+18,Ca Mau,9.1833,105.15,Vietnam
+19,Quy Nhon,13.7696,109.2314,Vietnam
+20,Soc Trang,9.6,105.9719,Vietnam
+21,Long Xuyen,10.3686,105.4234,Vietnam
+22,Viet Tri,21.3136,105.3947,Vietnam
+23,Thai Binh,20.4461,106.3422,Vietnam
+24,Quang Ngai,15.1206,108.7922,Vietnam
+25,Ap Da Loi,11.9304,108.42,Vietnam
+26,Rach Gia,10.0125,105.0808,Vietnam
+27,Thu Dau Mot,11.0042,106.6583,Vietnam
+28,Tuy Hoa,13.0869,109.3086,Vietnam
+29,Bac Lieu,9.2833,105.7167,Vietnam
+30,Sa Dec,10.3105,105.7397,Vietnam
+31,Phan Thiet,10.9375,108.1583,Vietnam
+32,Son Tay,21.1382,105.505,Vietnam
+33,Phan Rang-Thap Cham,11.5643,108.9886,Vietnam
+34,Ha Long,20.9514,107.0852,Vietnam
+35,Ha Tinh,18.3431,105.9058,Vietnam
+36,Dong Hoi,17.4833,106.6,Vietnam
+37,Chau Doc,10.7,105.1167,Vietnam
+38,Cam Pha,21.0094,107.2728,Vietnam
+39,Cao Lanh,10.4603,105.6331,Vietnam
+40,Lang Son,21.8478,106.7578,Vietnam
+41,Cam Ranh,11.902,109.2207,Vietnam
+42,Pleiku,13.9715,108.0147,Vietnam
+43,Tan An,10.5322,106.4042,Vietnam
+44,Tra Vinh,9.9369,106.3411,Vietnam
+45,Ninh Binh,20.2539,105.975,Vietnam
+46,My Tho,10.35,106.35,Vietnam
+47,Tay Ninh,11.3131,106.0963,Vietnam
+48,Cam Ranh,11.9136,109.1369,Vietnam
+49,Hoi An,15.8777,108.3327,Vietnam
+50,Hoa Binh,20.8175,105.3375,Vietnam
+51,Vinh Long,10.255,105.9753,Vietnam
+52,Mang La,14.3838,107.9833,Vietnam
+53,Yen Bai,21.7,104.8667,Vietnam
+54,Vi Thanh,9.7833,105.4708,Vietnam
+55,Quang Tri,16.7504,107.2,Vietnam
+56,Lao Cai,22.4194,103.995,Vietnam
+57,Ben Tre,10.2333,106.3833,Vietnam
+58,Bac Giang,21.2731,106.1947,Vietnam
+59,Cao Bang,22.6731,106.25,Vietnam
+60,Ha Giang,22.8233,104.9836,Vietnam
+61,Tuyen Quang,21.8281,105.2156,Vietnam
+62,Bac Kan,22.1514,105.8377,Vietnam
+63,Son La,21.327,103.9141,Vietnam
+64,Dong Ha,16.8056,107.0906,Vietnam
+65,Da Nang,16.0748,108.224,Vietnam
+66,Hung Yen,20.6464,106.0511,Vietnam
+67,Phu Ly,20.5453,105.9122,Vietnam
+68,Vinh Yen,21.31,105.5967,Vietnam
+69,Tam Ky,15.5667,108.4833,Vietnam
+70,Dien Bien Phu,21.3833,103.0169,Vietnam
+71,Dong Xoai,11.5349,106.8832,Vietnam
+72,Da Lat,11.9359,108.4429,Vietnam
+73,Lai Chau,22.3991,103.4393,Vietnam
+74,Kon Tum,14.3436,107.9789,Vietnam
+75,Gia Nghia,12.0042,107.6907,Vietnam
+76,Di An,10.9039,106.7679,Vietnam
+77,Phu Quoc,10.2289,103.9572,Vietnam
+78,Ha Tien,10.3833,104.4833,Vietnam
+79,Binh Long,11.6504,106.6,Vietnam
+80,Luan Chau,21.74,103.343,Vietnam
