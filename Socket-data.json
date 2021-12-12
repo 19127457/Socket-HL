@@ -1,35 +1,75 @@
 ﻿{
-  "data": "Danh sách địa điểm",
+  "data":
   [
     {
-      "Maso": "1",
-      "Tên địa điểm": "Đà Nẵng",
-      "Kinh độ": "107°17' đến 108°20' kinh độ Đông",
-      "Vĩ độ": "15°15' đến 16°40' vĩ độ Bắc"
+      "Key": "1",
+      "location": "Đà Nẵng",
+      "longitude": "108.224",
+      "latitude": "16.0748",
+      "description": "Viet Nam tôi đẹp"
     },
     {
-      "Maso": "2",
-      "Tên địa điểm": "Buôn Ma Thuột",
-      "Kinh độ": "108°2' - 108°23' kinh độ đông",
-      "Vĩ độ": "12°46' - 12°55' vĩ độ bắc"
+      "Key": "2",
+      "location": "Buôn Ma Thuột",
+      "longitude": "108.05",
+      "latitude": "12.6667",
+      "description": "Viet Nam tôi đẹp"
     },
     {
       "Maso": "3",
-      "Tên địa điểm": "Hồ Chí Minh",
-      "Kinh độ": "105°44' đến 106°02' kinh độ Đông",
-      "Vĩ độ": "10°10' – 10°38' vĩ độ Bắc"
+      "location": "Hồ Chí Minh",
+      "longitude": "106.6333",
+      "latitude": "10.8167",
+      "description": "Viet Nam tôi đẹp"
     },
     {
       "Maso": "4",
-      "Tên địa điểm": "Hà Nội",
-      "Kinh độ": "105°44' đến 106°02' kinh độ Đông",
-      "Vĩ độ": "20°53' đến 21°23' vĩ độ Bắc"
+      "location": "Hà Nội",
+      "longitude": "105.8412",
+      "latitude": "21.0245",
+      "description": "Viet Nam tôi đẹp"
     },
     {
       "Maso": "5",
-      "Tên địa điểm": "Vũng Tàu",
-      "Kinh độ": "107°00'01 '' đến 107°34'18'' kinh độ Đông",
-      "Vĩ độ": "10°19'08'' đến 10°48'39'' Vĩ độ Bắc"
+      "location": "Vũng Tàu",
+      "longitude": "107.1417",
+      "latitude": "10.4042",
+      "description": "Viet Nam tôi đẹp"
+    },
+    {
+      "Maso": "6",
+      "location": "Cần Thơ",
+      "longitude": "105.7833",
+      "latitude": "10.0333",
+      "description": "Viet Nam tôi đẹp"
+    },
+    {
+      "Maso": "7",
+      "location": "Huế",
+      "longitude": "107.5908",
+      "latitude": "16.4637",
+      "description": "Viet Nam tôi đẹp"
+    },
+    {
+      "Maso": "8",
+      "location": "Thái Bình",
+      "longitude": "106.3422",
+      "latitude": "20.4461",
+      "description": "Viet Nam tôi đẹp"
+    },
+    {
+      "Maso": "9",
+      "location": "Hạ Long",
+      "longitude": "107.0852",
+      "latitude": "20.9514",
+      "description": "Viet Nam tôi đẹp"
+    },
+    {
+      "Maso": "10",
+      "location": "Hội An",
+      "longitude": "108.3327",
+      "latitude": "15.8777",
+      "description": "Viet Nam tôi đẹp"
     }
   ]
 }
